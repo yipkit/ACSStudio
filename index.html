@@ -2,31 +2,54 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <style type="text/css">
+        #B1{
+            width:1920px;
+            height:1080px;   
+            background: -webkit-linear-gradient(white,black);
+            background: -o-linear-gradient(white,black);
+            background: -moz-linear-gradient(white,black);
+            background: linear-gradient(white,black);
+        }
+        #wordStyle {
+            background: linear-gradient(to top, #1831a3, #444141, #e02b2b);
+            background: -webkit-linear-gradient(to top, #1620ad, #474646, #e91304);
+            background-clip: text;
+            -webkit-background-clip: text;
+            color: transparent;
+            font-size: 200%;
+            font-style: italic;
+        }
+        #onetrust-policy{
+            margin: 1em 0 0;
+            font-size: .7em;
+            float:left;
+            font-size:.82em;padding:0;
+            margin-bottom:0;
+            border:0;
+            line-height:normal;
+            height:auto;
+            width:auto;
+        }
+
+        
+    </style>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>ACS Studio</title>
+    <link href="Source/css/bootstrap.min.css" rel="stylesheet">
   </head>
-  <body>
-    <div class="jumbotron text-center">
-        <h1>My First Bootstrap Page</h1>
-        <p>Resize this responsive page to see the effect!</p>
-      </div>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Column 1</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-          <div class="col-sm-4">
-            <h3>Column 3</h3>
-            <p>Lorem ipsum dolor..</p>
-          </div>
-        </div>
-      </div>
+  <body id="B1"><!-- TB2 is backgroud color-->
+    <h1 class="container-fluid" id ="wordStyle">Wellcome to ACS Studio</h1>
+    
+    <div>
+         
+    </div>
+    <div id="onetrust-policy">
+    </div>
+    <p id="onetrust-policy-text">By clicking “Accept All Cookies”, you agree to the storing of cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. <a href="https://www.cygames.co.jp/en/policy/" aria-label="More information about your privacy">More information</a></p>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><!--use bootstrap-->
+    <script src="Source/js/bootstrap.min.js"></script><!--use bootstrap-->
   </body>
 </html>
